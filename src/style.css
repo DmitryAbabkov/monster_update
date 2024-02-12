@@ -1,0 +1,30 @@
+body {
+    background-color: #AFEEEE;
+}
+
+.bodyCursor {
+    /* cursor: url('./img/goblin.png') 2 2, auto; */
+    cursor: pointer;
+}
+
+
+.container-row {
+    width: 100px;
+    height: 100px;
+    background-color: #00FA9A;
+    border: 1px solid black;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.container-goblin {
+    background-image: url('./img/goblin.png');
+    background-size: contain;
+}
+
+.test {
+    color: red;
+}
